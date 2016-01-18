@@ -1,0 +1,71 @@
+.content5{
+	border:2px solid #ccc;
+	overflow: hidden;
+}
+.content5 h2{
+	text-align: center;
+	margin-top: 5px;
+	color: #399;
+	font-size: 23px;
+}
+.content5 .basic{
+	margin-left: 30px;
+	background: -webkit-linear-gradient(left,#399,#ccc);
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.content5 .wrap1{
+	margin-left: 30px;
+	height: 70px;
+	width: 100%;
+}
+.wrap1 div{
+	font-size: 17px;
+}
+.skill{
+	margin-left: 30px;
+	background: -webkit-linear-gradient(left,#399,#ccc);
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.wrap2{
+	margin-left: 30px;
+	font-size: 17px;
+}
+.experience{
+	margin-left: 30px;
+	background: -webkit-linear-gradient(left,#399,#ccc);
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.wrap3{
+	margin-left: 30px;
+	font-size: 17px;
+}
+.work{
+	margin-left: 30px;
+	background: -webkit-linear-gradient(left,#399,#ccc);
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.wrap4{
+	margin-left: 30px;
+	font-size: 17px;
+}
+.estimate{
+	margin-left: 30px;
+	background: -webkit-linear-gradient(left,#399,#ccc);
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.wrap5{
+	margin-left: 30px;
+	font-size: 17px;
+}

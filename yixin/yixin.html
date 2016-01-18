@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宜信</title>
+<script src="jquery-1.7.2.js"></script>
+<script>
+$(function(){
+	$('.pic ul li').mouseover(function(){
+		$('.pic ul li').removeClass('active');
+		$(this).addClass('active');
+		$('.pic img').removeClass('show');
+		$('.pic img').eq($(this).index()).addClass('show');
+		})	
+})
+$(function(){
+	$('.footer_l ul li').mouseover(function(){
+		$('.footer_l ul li').removeClass('act');
+		$(this).addClass('act');
+		$('.footer_l img').removeClass('sh');
+		$('.footer_l img').eq($(this).index()).addClass('sh');
+		})	
+})
+</script>
+<style>
+*{padding:0; margin:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.wrapper{width:1100px; margin:0 auto;}
+img, input, textarea{vertical-align:top;}
+
+.fl{float:left;}
+.fr{float:right;}
+.clearFix:after{content:''; display:block; clear:both;}
+.clearFix{zoom:1;}
+.top_img1{margin-left:26px;}
+.top_r{padding-top:28px;}
+.top{margin-top:22px; margin-bottom:20px;}
+.top_r p a{font-size:12px; color:#333;}
+.top_r .bdnone{border:none;}
+.top_r p{height;10px; border-right:1px solid #333; padding-left:10px; padding-right:10px; }
+.top_r p a:hover{color:#C69;}
+.nav li{padding-left:30px; padding-right:97px; background:#004ea1; height:32px; line-height:32px; margin-right:1px;}
+.nav li a{color:#fff; font-size:15px;}
+.nav .li_n{background:#989a9f;}
+.nav li:hover{background:#989a9f;}
+
+.banner{height:453px; background:#f7f7f7;  position:relative;}
+.pic img{position:absolute; bottom:0; left:50%; margin-left:-550px; display:none;}
+.pic .show{display:block;}
+.banner ul{width:100px; height:11px; position:absolute; left:50%; bottom:18px; margin-left:-50px;}
+.banner ul li{width:11px; height:11px; background:#Fff; border-radius:50%; margin-right:4px;}
+.banner .active{background:#5cb2f4;}
+.footer{height:285px; overflow:hidden;}
+.footer_l{width:273px; position:relative; height:217px; border-left:1px solid #ccc; border-right:1px solid #ccc;}
+
+.footer_l ul li{height:9px; width:9px; background:#c1c2b8; border-radius:50%; float:left; margin-right:6px; }
+.footer_l ul{height:9px; width:45px; position:absolute; top:32px; right:18px;}
+.footer_l .act{background:#ff862d;}
+.footer_l img{display:none; position:absolute; top:50px; left:16px;}
+.footer_l .sh{display:block;}
+.footer_c1 p{font-size:16px; color:#95d2ef; padding-left:16px; margin-top:30px; font-weight:bold;}
+.footer_c1 p span{color:#515151; }
+.footer_c1{position:relative; height:217px; width:273px; border-right:1px solid #ccc;}
+.footer_c1 img{position:absolute; left:30px; top:73px;}
+.footer_c1 div{height:110px; width:140px; position:absolute; top:57px; right:20px;}
+.footer_c1 div h3{ margin-bottom:23px;}
+.footer_c1 div h3 a{font-size:11px; color:#76502d;}
+.footer_c1 div h4{font-size:11px; color:#717171; padding-bottom:10px;}
+.footer_c1 div h4 a{font-size:11px; color:#717171;}
+
+.footer_c2{height:285px; border-right:1px solid #ccc; width:273px; position:relative;}
+.footer_c2 p{font-size:16px; color:#95d2ef; padding-left:16px; margin-top:30px; font-weight:bold;}
+.footer_c2 p span{color:#515151; }
+.footer_c2_box img{margin-left:15px; margin-top:10px;}
+.footer_c2_box p a{font-size:12px; color:#76502d;}
+.footer_c2_box h3 a{font-size:12px; color:#717171;}
+.footer_c2_box div{width:140px; height:65px; margin-top:-20px; margin-left:15px; margin-bottom:35px;}
+.footer_c2_box p{text-indent:-1em;}
+.footer_r{width:275px; height:285px; border-right:1px solid #ccc;}
+.footer_r p{font-size:12px; color:#333; font-weight:bold; margin-left:10px; margin-top:30px;}
+.footer_r li{list-style:disc; color:#717171; margin-left:27px; font-size:12px; margin-top:8px;}
+.footer_r ul img{float:left; margin-top:5px; margin-left:5px;}
+.pad{padding-top:15px;}
+.bot{background:#f7f7f7; height:55px;}
+</style>
+</head>
+
+<body>
+<div class="box">
+	<div class="header  wrapper">
+    	<div class="top clearFix">
+        	<img src="images/logo.jpg" alt="" class="fl top_img1"/>
+            <div class="top_r fr">
+                <p class="fl"><a href="javascript:;">宜信官方微博</a></p>
+                <p class="fl"><a href="javascript:;">招贤纳士</a></p>
+                <p class="fl"><a href="javascript:;">联系我们</a></p>
+                <p class="fl bdnone"><a href="javascript:;">ENGLISH</a></p>
+        	</div>
+        </div>
+    </div>
+    <ul class="nav wrapper clearFix">
+        <li class="fl li_n"><a href="javascript:;">首页</a></li>
+        <li class="fl"><a href="javascript:;">普惠金融</a></li>
+        <li class="fl"><a href="javascript:;">财富管理</a></li>
+        <li class="fl"><a href="javascript:;">宜信动态</a></li>
+        <li class="fl"><a href="javascript:;">社会责任</a></li>
+        <li class="fl"><a href="javascript:;">关于宜信</a></li>
+    </ul>
+    <div class="banner">
+    	<ul class="clearFix">
+        	<li class="fl active"></li>
+        </ul>
+    	<div class="pic">
+        	<a href="javascript:;">
+                <img src="images/1-150Q4164R10-L.jpg" alt="" class="show"/>
+                <img src="images/1-150R51501250-L.jpg" alt="" />
+                <img src="images/1-150Z61P1010-L.jpg" alt="" />
+                <img src="images/1-15091QA1280-L.png" alt="" />
+                <img src="images/1-1509141K1230-L.jpg" alt="" />
+                <img src="images/13-150I0113614519.jpg" alt="" />
+            </a>
+            <ul class="clearFix">
+        		<li class="fl active"></li>
+                <li class="fl"></li>
+                <li class="fl"></li>
+                <li class="fl"></li>
+                <li class="fl"></li>
+                <li class="fl"></li>
+        	</ul>
+        </div> 
+    </div>
+	<div class="footer clearFix wrapper">
+		<div class="footer_l fl">
+        	<a href="javascript:;">
+                <img src="images/m1.png" alt="" class="fl sh"/>
+                <img src="images/m2.png" alt="" class="fl"/>
+                <img src="images/m1.png" alt="" class="fl"/>
+            </a>
+            <ul>
+            	<li class="act"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="footer_c1 fl">
+        	<p>普惠<span>金融</span></p>
+            <img src="images/13-150I0163554221.png" alt="" width="55" height="70" />
+        	<div>
+            	<h3><a href="javascript:;">宜信开启‘敢2’品牌营销活动</a></h3>
+                <h4><a href="javascript:;">宜信普惠首发普惠金融</a></h4>
+                <h4><a href="javascript:;">宜信发布第二个农村5年造血式扶贫小贷样本</a></h4>
+            </div>
+        </div>
+        <div class="footer_c2 fl">
+        	<p>财富<span>管理</span></p>
+            <div class="footer_c2_box clearFix">
+            	<img src="images/images/w_03.jpg" alt="" class="fl"/>
+                <div class="fl">
+                    <p>
+                        <a href="javascript:;">
+                            宜信财富2015财富论坛
+                        </a>
+                    </p>
+                    <h3>
+                        <a href="javascript:;">
+                            5月15日，宜信财富主办的2015中国财富管理系列论坛..
+                        </a>
+                    </h3>
+              	</div>
+            </div>
+            <div class="footer_c2_box clearFix">
+            	<img src="images/images/w_06.jpg" alt="" class="fl"/>
+                <div class="fl">
+                    <p>
+                        <a href="javascript:;">
+                            宜信财富2015财富论坛
+                        </a>
+                    </p>
+                    <h3>
+                        <a href="javascript:;">
+                            5月15日，宜信财富主办的2015中国财富管理系列论坛..
+                        </a>
+                    </h3>
+              	</div>
+            </div>
+        </div>
+        <div class="footer_r fl">
+        	<p>News & Notice</p>
+            <ul class="clearFix">
+            	<li>声明</li>
+                <li>九年宜信推出“少年宜信”品牌</li>
+                <a href="javascript:;">
+                    <img src="images/wm_07.jpg" class="pad"/>
+                    <img src="images/wm_08.jpg" class="pad"/>
+                    <img src="images/wm_09.jpg" class="pad"/>
+                    <img src="images/wm_13.jpg" class="pad"/>
+                    <img src="images/wm_14.jpg" class="pad"/>
+                    <img src="images/wm_15.jpg" class="pad"/>
+                    <img src="images/wm_16.jpg" />
+                    <img src="images/wm_17.jpg" />
+                    <img src="images/wm_18.jpg" />
+                    <img src="images/wm_20.jpg" />
+                    <img src="images/wm_21.jpg" />
+                </a>
+            </ul>
+        </div>
+	</div>
+    <div class="bot"></div>
+</div>
+</body>
+</html>
